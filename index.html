@@ -1,0 +1,71 @@
+<html>
+    <header>
+    </header>
+    <link rel="stylesheet" href="ex.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Mako" rel="stylesheet">
+    <body>
+<h1 align="center">Exercise 1 for AJAX (in-class assignment)</h1>
+
+<h5 align="center">Use jQuery to do the following things with the http://jsonplaceholder.typicode.com/ API. <br></h5>
+
+<div class="instructions" align="center">
+
+<h6>
+Create buttons that do each of the tasks below <br>
+Render the results to the page in html elements. <br>
+Hide the results from the previous actions <br>
+
+Get all posts. <br>
+Get post with id of 10. <br>
+Get the comments from post with id of 12. <br>
+Get all the posts from user with id of 2. <br>
+Create a new post and log the id generated for it by the server. <br>
+Replace the post with id of 12 and render the responseJSON. <br>
+Update the title of post with id of 12 and render responseJSON. <br>
+Delete the post with id of 12 and render a success message. <br>
+Display a list of posts.<br>
+When the user clicks on a post, display all the comments from that post. <br>
+Display a link back to all posts. <br></h6>
+
+</div>
+
+
+      <p>1) Get all posts: </p>
+    <input type="button" name="allPosts" id="allPosts" value="Get All Posts">
+
+    <p>2) Get post with id of 10: <br></p>
+    <input type="button" name="idof10" id="idOfTen" value="Post with ID of 10">
+
+    <p>3) Get the comments from post with id of 12: <br></p>
+    <input type="button" name="12comments" id="twelveComment" value="Comments from Post #12">
+
+    <p>4) Get all the posts from user with id of 2. <br></p>
+    <input type="button" name="userIdOfTwo" id="userTwo" value="Posts from User #2">
+
+    <p>5) Create a new post and log the id generated for it by the server. <br></p>
+    <input type="button" name="newPost" id="newPost" value="New Post">
+
+    <p>6) Replace the post with id of 12 and render the responseJSON. <br></p>
+    <input type="button" name="replace12" id="replaceTwelve" value="Replace the ID with 12">
+
+    <p>7) Update the title of post with id of 12 and render responseJSON. <br></p>
+    <input type="button" name="updateTwelve" id="updateTwelve" value="Update the post that has an ID of 12">
+
+    <p>8) Delete the post with id of 12 and render a success message. <br></p>
+    <input type="button" name="deleteTwelve" id="deleteTwelve" value="Delete the post that has an ID of 12">
+
+    <p> 9) Display a list of posts.<br> </p>
+    <p class="fail"> Couldnt get this to work</p>
+    <input type="button" name="display" id="display" value="Display list of posts">
+
+    <p>10) When the user clicks on a post, display all the comments from that post. <br> </p>
+    <p class="fail">  *Couldnt get to this step,because couldnt get #9 to work. </p>
+
+    <p>11) Display a link back to all posts. <br></p>
+    <input type="button" name="Back" id="back" value="Back to all posts">
+
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="class.js"></script>
+    </body>
+</html>

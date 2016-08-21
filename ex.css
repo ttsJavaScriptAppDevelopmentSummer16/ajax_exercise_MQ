@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+  font-family: 'Mako', sans-serif;
+  color: #66B6AB;
+}
+
+.fail {
+  color: #E6324B;
+}
+
+p {
+  font-size: 22px;
+  color: #5B7C8D
+}
+
+input {
+  font-size: 16px;
+  background-color: #FEDCBA;
+  border-radius: 5px;
+  color: #4F2958;
+}
+
+.instructions {
+  color: #4F2958;
+}
